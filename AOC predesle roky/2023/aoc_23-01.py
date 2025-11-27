@@ -9,7 +9,7 @@ def main():
     slova = ["zero", "one", "two", "three", "four",
              "five", "six", "seven", "eight", "nine"]
 
-    lines = read_input()  # reads trebuchet.txt next to this script
+    lines = read_input()
     total = 0
 
     for line in lines:
