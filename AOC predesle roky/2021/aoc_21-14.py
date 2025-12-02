@@ -60,9 +60,9 @@ def main():
     lines = read_input()
     template, rules = parse_input(lines)
     polymer = apply_rules(template, rules, steps=10)
-    print("difference between max and min: ", difference(polymer), "\n")
+    print("rozdil medzi min a max: ", difference(polymer), "\n")
     polymer = apply_rules_for_counts(template, rules, steps = 40)
-    print("difference between most and least common: ", max(polymer.values()) - min(polymer.values()))
+    print("rozdil medzi najcastejsie a nejmenej caste: ", max(polymer.values()) - min(polymer.values()))
 
 
 if __name__ == "__main__":
