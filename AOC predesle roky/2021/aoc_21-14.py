@@ -24,7 +24,7 @@ def apply_rules(template, rules, steps):
             new_polymer.append(polymer[i])
             if pair in rules:
                 new_polymer.append(rules[pair])
-        new_polymer.append(polymer[-1])
+        new_polymer.append(polymer[-1]  )
         polymer = "".join(new_polymer)
     return polymer
 
